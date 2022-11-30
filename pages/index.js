@@ -40,7 +40,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate a short, rhyming story (kind of like dr. sues</h1>
+            <h1>Generate a short story</h1>
           </div>
           <div className="header-subtitle">
             <h2>Describe a story you would like to hear</h2>
