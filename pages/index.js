@@ -40,14 +40,14 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Poem generator</h1>
+            <h1>Generate a short, rhyming story (kind of like dr. sues</h1>
           </div>
           <div className="header-subtitle">
-            <h2>input a title and it will generate a poem</h2>
+            <h2>Describe a story you would like to hear</h2>
           </div>
           <div className="prompt-container">
             <textarea
-              placeholder="start typing here"
+              placeholder="start typing her (E.G. farza fights a polar bear in the north pole)"
               className="prompt-box"
               value={userInput}
               onChange={onUserChangedText}
