@@ -53,7 +53,7 @@ const generateAction = async (req, res) => {
 
   const thirdPrompt = 
   `
-  write a short story that rhymes like a Dr. Seuss story about ${req.body.userInput}. make sure it has a happy beginning, a sad middle part, and happy ending
+  write a short story that rhymes like a Dr. Seuss story about ${req.body.userInput}. make sure it has a happy beginning, a sad middle part, and happy ending. no death or any thing dark.
 
   Title: ${basePromptOutput.text}
 
